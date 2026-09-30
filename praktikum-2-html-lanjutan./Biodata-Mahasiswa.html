@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Mahasiswa</title>
+</head>
+<body>
+    <header><h1>Biodata Mahasiswa</h1></header>
+
+    <nav>
+
+        <a href="index.html">Beranda</a>
+
+        <a href="#biodata">Biodata</a>
+
+        <a href="#form">Form</a>
+
+    </nav>
+
+    <main>
+
+        <section id="biodata">
+
+            <h2>Data Mahasiswa</h2>
+
+            <table border="1">
+
+                <tr><th>Data</th><th>Keterangan</th></tr>
+                <tr><td>NIM</td><td>312510135</td></tr>
+
+                <tr><td>Nama</td><td>Muhammad Nabil Hanzaldi</td></tr>
+                <tr><td>Program Studi</td><td>Teknik Informatika</td></tr>
+
+            </table>
+
+        </section>
+
+        <section id="form">
+
+            <h2>Form Biodata</h2>
+
+            <form>
+
+                <label for="nama">Biodata</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <br><br>
+
+                <label for="email">Email</label>
+
+                <input type="email" id="email" name="email" required>
+
+                <br><br>
+
+                <label for="prodi">Program Studi</label>
+
+                <select id="prodi" name="prodi" required>
+
+                    <option value="">-- Pilih --</option>
+
+                    <option value="ti">Teknik Informatika</option>
+
+                    <option value="si">Sistem Informasi</option>
+
+                </select>
+
+                <br><br>
+
+                <label for="alamat">Alamat</label><br>
+
+                <textarea id="alamat" name="alamat" required></textarea>
+
+                <br><br>
+
+                <button type="submit">Simpan</button>
+
+                <button type="reset">Reset</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer><p>&copy; 2026 Teknik Informatika</p></footer>
+</body>
+</html>
